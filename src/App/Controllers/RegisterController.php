@@ -6,16 +6,15 @@ namespace App\Controllers;
 
 use Framework\TemplateEngine;
 
-class HomeController
+
+class RegisterController
 {
-
-
     public function __construct(private TemplateEngine $view)
     {
     }
 
-    public function home()
+    public function register()
     {
-        echo $this->view->render("index.php", []);
+        echo $this->view->render('register.php', []);
     }
 }
