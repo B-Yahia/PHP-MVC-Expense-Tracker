@@ -36,6 +36,12 @@ class App
         $this->router->add("POST", $path, $conttroller);
         return $this;
     }
+    public function delete(string $path, array $conttroller): App
+    {
+        $this->router->add('DELETE', $path, $conttroller);
+        return $this;
+    }
+
     public function addMiddleWare(string $middleware)
     {
         $this->router->addMiddleWare($middleware);

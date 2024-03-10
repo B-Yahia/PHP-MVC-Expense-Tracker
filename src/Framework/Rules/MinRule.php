@@ -12,7 +12,7 @@ class MinRule implements RuleInterface
     public function validate(array $data, string $field, array $params): bool
     {
         if (empty($params[0])) {
-            throw new \InvalidArgumentException("Min rule must have a parameter");
+            throw new \InvalidArgumentException("Min rule must have a parameter" . $params[0]);
         }
         $length = (int) $params[0];
         return $data[$field] >= $length;
