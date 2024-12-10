@@ -1,4 +1,4 @@
-# PHP Blog (MVC Approach)
+# PHP Expense tracker (MVC Approach)
 PHP application designed using the MVC (Model-View-Controller) architecture. 
 
 ## Features
