@@ -22,7 +22,7 @@ composer install
 ## Deployment
 
 The app is now deployed on my VPS, and you can try it at:
- - [https://tracker.apitestdomain.site/](https://tracker.apitestdomain.site/)
+ - [https://tracker.thefullstackguy.com/](https://tracker.thefullstackguy.com/)
 
 You can sign up yourself and create a username and password to try the app or you can use these credentials:
 
